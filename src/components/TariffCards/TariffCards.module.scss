@@ -1,0 +1,111 @@
+@import "../../width.scss";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.cardHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardHeadText {
+  width: 60%;
+}
+
+.cardTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cardText {
+  font-size: 16px;
+  color: #777;
+}
+
+.cardSvg {
+  width: 40px;
+}
+
+.cardTextField {
+  flex-grow: 1;
+}
+
+.currentTariff {
+  background-color: #e6f0ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.textFieldContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.newPrice {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.oldPrice {
+  font-size: 16px;
+  color: #777;
+  text-decoration: line-through;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.descriptionText {
+  font-size: 16px;
+  color: #777;
+}
+
+.descriptionStrokeBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* TariffCards.module.scss */
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
